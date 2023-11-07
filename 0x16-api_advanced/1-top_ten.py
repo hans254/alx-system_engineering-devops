@@ -32,4 +32,3 @@ def top_ten(subreddit):
                 break
     except Exception:
         print(None)
-
