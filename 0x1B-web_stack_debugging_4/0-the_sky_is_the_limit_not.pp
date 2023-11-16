@@ -6,4 +6,3 @@ exec { 'fix--for-nginx':
   command     => 'sudo sed -i "s/$OLD/$NEW/" $DIR; sudo service nginx restart',
   path        => ['/usr/bin', '/bin'],
   returns     => [0, 1]
-
